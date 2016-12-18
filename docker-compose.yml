@@ -1,0 +1,6 @@
+MongoDB:
+  image: mongo:latest
+  ports:
+    - "27017:27017"
+  volumes:
+    - /srv/docker/mongodb:/var/lib/mongodb
