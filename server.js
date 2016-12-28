@@ -16,7 +16,7 @@ app.set('secretAuth', '123456789');
 app.use('/api', require('./routes/api'));
 
 app.get('/', function(req, res) {
-	res.send('It work');
+	res.send('Welcome on LearnProject !');
 });
 
 app.listen(3000);
