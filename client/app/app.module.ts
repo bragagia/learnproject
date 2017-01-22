@@ -8,7 +8,7 @@ import { CardDetailComponent } from './card-detail.component';
 import { CardListComponent } from './card-list.component';
 import { DashboardComponent } from './dashboard.component';
 
-import { CardService } from './card.service'
+import { CardService } from './card.service';
 
 @NgModule({
 	imports: [
@@ -27,6 +27,10 @@ import { CardService } from './card.service'
 			{
 				path: 'dashboard',
 				component: DashboardComponent
+			},
+			{
+				path: 'detail/:id',
+				component: CardDetailComponent
 			}
 		])
 	],
